@@ -1,0 +1,85 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 28rem;
+    margin-left: 28rem;
+    background-color: white;
+}
+ .heroin{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.paymentplan{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.description{
+    margin-top: 0rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+.price{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.plan{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.annual{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 4rem;
+ 
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+.order_btns{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.order_btns .proceed {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.order_btns .cancel {
+    border-style: none;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
